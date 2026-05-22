@@ -96,11 +96,33 @@ Structured SQL practice built on a realistic Kenyan banking dataset. Covers the 
 ---
 
 ### 5. 🔲 Financial Audit Dashboard *(In Progress)*
-**Tools:** Power BI · SQL · Excel · Power Query
+### 5. 🏛️ Equity SACCO Kenya — Financial Audit Dashboard
+**Tools:** Power BI · MySQL · Excel (Power Query) · DAX
 
-Capstone project combining all skills — a financial audit dashboard styled for a Kenyan bank or SACCO. Covers income statements, audit trails, variance analysis, and risk flags.
+Capstone project combining all skills — a full financial audit dashboard 
+for a fictional Kenyan SACCO. Built end-to-end from database design to 
+published dashboard.
 
-*Coming soon*
+**What was built:**
+- Designed and created 6-table MySQL database from scratch
+- Cleaned messy raw Excel income/expenditure data using Power Query
+  (fixed inconsistent dates, duplicates, typos, negative amounts, text numbers)
+- Connected both MySQL and Excel sources into one Power BI data model
+- Wrote 8 business SQL queries covering NPL ratio, P&L trend, 
+  audit flags, loan-to-deposit ratio, and membership growth
+
+**Key DAX measures:** NPL Ratio, Loan to Deposit Ratio, 
+Flagged Transactions, Flagged Amount, Total Repaid, Repayment Rate
+
+**3-page dashboard:**
+- Page 1: Financial Overview — assets, portfolio, deposits, P&L trend
+- Page 2: Loan & Risk Analysis — NPL ratio (10.23%), loan positions, 
+  repayment rates, loan-to-deposit ratio (259% — liquidity warning)
+- Page 3: Audit Trail — 4 flagged large transactions totalling KES 1.5M,
+  transaction volume by channel and month
+
+🔗 [View Live Dashboard](https://app.powerbi.com/groups/me/reports/7f870237-a17b-4a0b-ab36-0f049c26bb0c/8a03c6ce2c32b334d369?experience=power-bi)
+🔗 [View SQL Schema & Queries](https://github.com/BUND1-cmd/equity-sacco-capstone)
 
 ---
 
